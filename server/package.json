@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tsc --project ./ && node ./build/index.js"
+    "dev": "tsc --project ./ && node ./build/migrations/migrations.js && node ./build/index.js"
   },
   "author": "Michael Jacobs",
   "license": "ISC",

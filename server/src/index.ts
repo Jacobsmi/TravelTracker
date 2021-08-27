@@ -10,6 +10,7 @@ const PORT = 8080;
 
 app.post("/createuser", (req: express.Request, res: express.Response)=>{
   // Need to try to insert values into the database
+  
 });
 
 app.listen(PORT, ()=>{

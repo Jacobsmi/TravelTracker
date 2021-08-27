@@ -13,4 +13,11 @@
   - Node.js
   - npm
   - SQLite3
-- 
+- Step One
+  - Install the npm dependencies by changing into the server directory and running `npm i`
+- Step Two 
+  - Create the database by running `node ./build/migrations/migrations.js`
+- Step Three 
+  - Run the server with `node ./build/index.js`
+- All three commands can be run at once with `npm run dev`
+
