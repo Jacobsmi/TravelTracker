@@ -1,9 +1,9 @@
 // Importing SQLite3 to our project.
 import sqlite3 from "sqlite3";
 // Setting up a database for storing data.
-var db = new sqlite3.Database("./src/database.db");
+let db = new sqlite3.Database("./src/database.db");
 
-const sqlStatement = `CREATE TABLE IF NOT EXISTS user(
+const sqlStatement = `CREATE TABLE IF NOT EXISTS users(
   rowid,
   name TEXT NOT NULL,
   email TEXT NOT NULL UNIQUE,
@@ -15,4 +15,4 @@ db.run(sqlStatement, (err)=>{
     console.log("Error creating tables");
     console.log(err);
   }
-})
+});
