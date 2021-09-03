@@ -1,0 +1,54 @@
+.Landing{
+  height: 100vh;
+  width: 100vw;
+  min-height: 600px;
+}
+
+.Landing_Nav{
+  height: 100px;
+  grid-area: nav;
+  background-color: #3B28CC;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Landing_Nav_Logo{
+  margin-left: 2vw;
+  height: 80%;
+}
+
+.Landing_Nav_Link{
+  margin-right: 2vw;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: #7394E8;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.Landing_Main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Landing_Main_Header{
+  font-size: 2vw;
+  font-weight: 600;
+  margin-top: 30vh;
+}
+
+.Landing_Main_Button{
+  margin-top: 10vh;
+  font-size: 1.5vw;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  background-color: #3B28CC;
+  padding: 20px;
+  border-radius: 10px;
+}
+
